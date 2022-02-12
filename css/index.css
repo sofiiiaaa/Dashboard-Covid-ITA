@@ -1,0 +1,65 @@
+html, body { 
+    height:100%;
+
+}
+
+#map{
+    height: calc(100vh - 75px - 100px);
+    /* border: 5px royalblue solid; */
+}
+
+.container-fluid{
+    margin:0!important;
+    padding:15px!important;
+    background-image: radial-gradient(circle, #d4fc79 5%, #96e6a1 95%);
+    opacity: 100%;
+}
+
+#title{
+
+    text-align: center;
+    font-weight: 500!important;
+    font-family:'Inter', sans-serif;
+    
+}
+
+.legend { 
+    text-align: left; 
+    line-height: 18px; 
+    color: rgb(3, 3, 3); 
+    border:rgb(39, 112, 88) solid;
+    background-color: rgb(70, 207, 161); 
+    width: 150px;
+    
+}
+
+ .legend i { 
+     width: 15px; 
+     height: 18px; 
+     float: left; 
+     margin-right: 8px; 
+     opacity: 0.7; }
+
+.info { 
+    padding: 6px 8px;
+    font: 16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); 
+    border-radius: 5px; 
+    
+    } 
+       
+.info h4 { margin: 0 0 5px; color: #777; }
+
+#footer{
+    background-image: radial-gradient(circle, #d4fc79 5%, #96e6a1 95%);    
+    height: 100px;  
+}
+
+.icons{
+    color:#1dc995;
+    padding-top: 30px;
+    padding-left:1rem;
+}
+
